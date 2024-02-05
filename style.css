@@ -1,0 +1,129 @@
+*{
+    background-color: #efebe3;
+}
+#gith{
+    background-color: #efebe3;
+    text-decoration: none;
+    color:#303b2e;
+    font-size:30px;
+}
+
+
+#nav{
+    background-color:#303b2e;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+}
+@keyframes k{
+    from{height: 0px;}
+    to{height: 400px;}
+}
+a{
+    color:#efebe3;
+    background-color: #303b2e;
+    margin-top: 7px;
+    margin-right: 60px;
+    font-size: 20px;
+}
+#first{
+    height: 680px;
+    width: 1500px;
+    color: #303b2e;
+}
+#text1{
+    font-size: 40px;;
+    color:#303b2e;
+    text-align: center;
+    margin-left: 50px;
+    height: 680px;
+    width:  600px;
+    display: inline-block;
+   
+}
+#photo{
+    height: 400px;
+    width: 350px;
+    background-image: url(my.png.jpg);
+    background-size: cover;
+    margin: 70px 75px 0px 75px;
+    animation-name: k;
+    animation-duration: 4s;
+}
+
+#box1{
+    height: 600px;
+    width: 500px;
+    margin-top: 40px;
+    margin-right: 50px;
+    background-color: #303b2e;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: dashed;
+    color:#efebe3;
+    float: right;
+    display: inline;      
+}
+h6{
+    background-color: #303b2e;
+}
+#sec{
+    border: 4px dashed #efebe3;
+    margin:50px;
+    height: 400px;
+    width: 1400px;
+    font-weight: 100;
+    background-color: #303b2e;
+    color: #efebe3;
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: dashed;
+    
+}
+
+
+.birth
+{
+    display:flex;
+    height:50vh;
+    width:100%;
+}
+.birth1{
+    border-top: 2px dashed #303b2e; 
+    height:80%;
+    width:50%;
+    background-color: #efebe3;
+}
+
+.birth2{
+    
+    text-align: center;
+    text-decoration: none;
+    height:80%;
+    width:50%;
+    background-color: #303b2e;
+    font-size: 20px;    /* float: right; */
+}
+
+#forms
+{
+    display:grid;
+    grid-column-gap: 25vw;
+    width:100vw;
+    margin: 25vh 20vw;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+}
+label
+{
+    font-size: larger;
+}
+input
+{
+    width:300px;
+}
+p{
+    text-transform: capitalize;
+    font-size: 20px;
+}
