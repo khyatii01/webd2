@@ -3,7 +3,7 @@
 }
 #gith{
     background-color: #efebe3;
-    text-decoration: none;
+    text-decoration: line;
     color:#303b2e;
     font-size:30px;
 }
@@ -68,7 +68,7 @@ h6{
     background-color: #303b2e;
 }
 #sec{
-    border: 4px dashed #efebe3;
+    border: 4px solid #efebe3;
     margin:50px;
     height: 400px;
     width: 1400px;
@@ -79,7 +79,14 @@ h6{
     text-align: center;
     text-transform: capitalize;
     text-decoration: dashed;
+    animation-name: any;
+    animation-delay: 4s;
+    animation-duration: 4s;
     
+}
+@keyframes any{
+    from{visibility: hidden;}
+    to{visibility: visible;}
 }
 
 
@@ -126,4 +133,29 @@ input
 p{
     text-transform: capitalize;
     font-size: 20px;
+}
+.footer{
+    border-top: 1px solid black;
+    background-color: #ead9b8;
+    height: 300px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+}
+.icon{
+    border-right: 1px solid black;
+}
+.footer div{
+    background-color: #ead9b8;
+    margin-right: 10px;
+}
+i{
+    color: black;
+    opacity: 1;
+    font-size: 50px;
+    margin: 20px; 
+    background-color: #ead9b8;   
 }
