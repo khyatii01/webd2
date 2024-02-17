@@ -110,7 +110,9 @@ h6{
     height:80%;
     width:50%;
     background-color: #303b2e;
-    font-size: 20px;    /* float: right; */
+    font-size: 20px; 
+    display:flex;
+    justify-content:space-evenly;
 }
 
 #forms
