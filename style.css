@@ -159,3 +159,21 @@ i{
     margin: 20px; 
     background-color: #ead9b8;   
 }
+.school{
+    background-color: #303b2e;
+}
+.school:hover{
+    background-image: url("school.jpg");
+    height: 100%;
+    width: 60%;
+    background-size: cover;
+}
+.college{
+    background-color: #303b2e;
+}
+.college:hover{
+    background-image: url("college.jpeg");
+    height: 100%;
+    width: 60%;
+    background-size: cover;
+}
